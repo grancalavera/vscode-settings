@@ -1,5 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0
 }
