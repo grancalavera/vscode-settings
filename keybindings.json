@@ -310,6 +310,11 @@
         "when": "editorFocus"
     },
     {
+        "key": "alt+k alt+d",
+        "command": "editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
@@ -351,8 +356,8 @@
     },
     {
         "key": "ctrl+shift+alt+n",
-        "command":"scrollPageDown",
-        "when":"editorTextFocus"
+        "command": "scrollPageDown",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+shift+alt+p",
