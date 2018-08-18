@@ -396,5 +396,15 @@
         "key": "alt+w",
         "command": "-toggleSearchWholeWord",
         "when": "searchInputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
