@@ -1,11 +1,22 @@
 {
-    "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
-    "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
-    "breadcrumbs.enabled": true,
-    "workbench.editor.showTabs": false,
-    "window.menuBarVisibility": "hidden"
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.showTabs": false,
+  "window.menuBarVisibility": "hidden",
+  "editor.renderWhitespace": "boundary",
+  "terminal.integrated.rendererType": "dom",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true
+  }
 }
